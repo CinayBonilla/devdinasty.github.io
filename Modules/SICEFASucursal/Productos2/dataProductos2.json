@@ -1,0 +1,105 @@
+[
+    {
+        "nombre":"Aspirina",
+        "nGenerico":"Ácido acetilsalicílico",
+        "fFarmaceutica":"Tableta",
+        "uMedida":"Tableta",
+        "presentacion":"Caja con 20 tabletas",
+        "pIndicacion":"Alivio temporal de dolores leves",
+        "contradicciones":"No usar si es alérgico a la aspirina",
+        "concentracion":"500mg",
+        "uEnvase":"20 tabletas",
+        "pUnitario":"8.75",
+        "cBarras":"5318297992",
+        "estatus":"Activo"
+    }
+,
+
+
+    {
+        "nombre":"Paracetamol",
+        "nGenerico":"Paracetamol",
+        "fFarmaceutica":"Tableta",
+        "uMedida":"Tableta",
+        "presentacion":"Caja con 30 tabletas",
+        "pIndicacion":"Alivio temporal de fiebre y dolores leves",
+        "contradicciones":"No exceder la dosis recomendada",
+        "concentracion":"500mg",
+        "uEnvase":"30 tabletas",
+        "pUnitario":"10.50",
+        "cBarras":"9992028863",
+        "estatus":"Activo"
+    }
+,
+
+
+    {
+        "nombre":"Ibuprofeno",
+        "nGenerico":"Ibuprofeno",
+        "fFarmaceutica":"Tableta",
+        "uMedida":"Tableta",
+        "presentacion":"Caja con 24 tabletas",
+        "pIndicacion":"Alivio temporal de dolores e inflamación",
+        "contradicciones":"No usar por períodos prolongados",
+        "concentracion":"400mg",
+        "uEnvase":"24 tabletas",
+        "pUnitario":"12.25",
+        "cBarras":"4367018331",
+        "estatus":"Activo"
+    }
+,
+
+
+    {
+        "nombre":"Omeprazol",
+        "nGenerico":"Omeprazol",
+        "fFarmaceutica":"Cápsula",
+        "uMedida":"Cápsula",
+        "presentacion":"Caja con 14 cápsulas",
+        "pIndicacion":"Reducción de la acidez estomacal",
+        "contradicciones":"No usar si es alérgico al omeprazol",
+        "concentracion":"20mg",
+        "uEnvase":"14 cápsulas",
+        "pUnitario":"15.00",
+        "cBarras":"5051501394",
+        "estatus":"Activo"
+    }
+,
+
+
+    {
+        "nombre":"Loratadina",
+        "nGenerico":"Loratadina",
+        "fFarmaceutica":"Tableta",
+        "uMedida":"Tableta",
+        "presentacion":"Caja con 10 tabletas",
+        "pIndicacion":"Alivio temporal de alergias",
+        "contradicciones":"Consultar a un médico si está embarazada",
+        "concentracion":"10mg",
+        "uEnvase":"10 tabletas",
+        "pUnitario":"7.50",
+        "cBarras":"9261210239",
+        "estatus":"Activo"
+    }
+,
+
+
+    {
+        "nombre":"Amoxicilina",
+        "nGenerico":"Amoxicilina",
+        "fFarmaceutica":"Cápsula",
+        "uMedida":"Cápsula",
+        "presentacion":"Caja con 16 cápsulas",
+        "pIndicacion":"Tratamiento de infecciones bacterianas",
+        "contradicciones":"No tomar si es alérgico a la penisilina",
+        "concentracion":"500mg",
+        "uEnvase":"16 cápsulas",
+        "pUnitario":"18.50",
+        "cBarras":"1225638672",
+        "estatus":"Activo"
+    }
+
+
+]
+
+

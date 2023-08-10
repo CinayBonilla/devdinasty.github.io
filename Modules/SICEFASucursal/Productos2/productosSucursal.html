@@ -1,0 +1,79 @@
+<div id="contenedorClientes" class="row d-flex  justify-content-center align-content-center">
+    <div class=" tablita justify-content-center align-content-center mb-2">
+        <h2 class="text-center ">Gestión de Productos</h2>
+
+
+        <div class="contn d-flex justify-content-center align-content-center container">
+
+            <div class="contF container-fluid">
+                <label class="">Nombre:</label><br>
+                <input class="" required type="text" id="txtNombrePro" name="txtNombrePro" placeholder="Ingresa nombre producto"><br><br>
+                <label class="">Nombre genérico:</label><br>
+                <input class="" required type="text" id="txtNombreGenPro" name="txtNombreGenPro" placeholder="Ingresa nombre genérico"><br><br>
+                <label class="">Forma farmacéutica:</label><br>
+                <input class="" required type="text" id="txtFormaFar" name="txtFormaFar" placeholder="Ingresa forma farmacéutica"><br><br>
+                <label class="">Unidad de medida:</label><br>
+                <input class="" required type="number" id="txtUnidadMed" name="txtUnidadMed" placeholder="Ingresa unidad medida"><br><br>
+                <label class="">Presentación:</label><br>
+                <input class="" required type="text" id="txtPresentacionPro" name="txtPresentacionPro" placeholder="Ingresa presentación" ><br><br>
+                <label class="">Principal indicación:</label><br>
+                <input class="" required type="text" id="txtPrincipalInd" name="txtPrincipalInd" placeholder="Ingresa principal indicación">
+            </div>
+            <div class="contF container-fluid">
+                <label class="">Contradicciones:</label><br>
+                <input class="" required type="text" id="txtContraPro" name="txtContraPro" placeholder="Ingresa contraddicciones"><br><br>
+                <label class="">Concentración:</label><br>
+                <input class="" required type="text" id="txtConcenPro" name="txtConPro" placeholder="Ingresa concentración"><br><br>
+                <label class="">Unidades de envase:</label><br>
+                <input class="" required type="number" id="txtUnidadEnv" name="txtUnidadEnv" placeholder="Ingresa unidades envase"><br><br>
+                <label class="">Precio unitario:</label><br>
+                <input class="" required type="number" id="txtPrecioPro" name="txtPrecioPro" placeholder="Ingresa precio"><br><br>
+                <label class="">Foto:</label><br>
+                <input class="" type="file" id="txtFotoPro" name="txtFotoPro"><br><br>
+                <label class="">Código de barras:</label><br>
+                <input class="" required type="number" id="txtCodPro" name="txtCodPro" placeholder="Ingresa código barras">
+            </div>
+        </div>
+
+            <div class="d-flex mb-5 justify-content-center align-content-center" >
+                <button class="btn btn-info mx-2" id="btnAgregar" onclick="moduloProductos.agregarProducto();">Agregar</button>
+                <button class="btn btn-info mx-2" id="btnActualizar" onclick="moduloProductos.actualizarProducto();">Modificar</button>
+                <button class="btn btn-info mx-2" id="btnEliminar" onclick="moduloProductos.eliminarProducto();">Eliminar</button>
+                <button class="btn btn-info mx-2" id="btnLimpiar" onclick="moduloProductos.limpiarCampos();">Limpiar</button>
+            </div>
+            <!--</div>
+        
+            <div class="tablita col-12">-->
+            <div class="mb-3 justify-content-center align-content-center text-center">
+                <label >Buscar producto:</label>
+                <input type="text" id="txtBuscarProducto">
+                <button class="btn btn-info mx-2" onclick="moduloProductos.cargarTabla();">Buscar</button>
+            </div>
+            <div class="tablaCli table-responsive d-flex table pt-3 mb-3">
+                <table class="tablaCli table table-hover text-nowrap">
+                    <thead>
+                        <tr class="table-info">
+                            <td class="mx-2">Nombre(s)</td>
+                            <td class="mx-2">Nombre genérico</td>
+                            <td class="mx-2">Forma farmacéutica</td>
+                            <td class="mx-2">Unidad de medida</td>
+                            <td class="mx-2">Presentación</td>
+                            <td class="mx-2">Principal indicación</td>
+                            <td class="mx-2">Contraddicciónes</td>
+                            <td class="mx-2">Concentración</td>
+                            <td class="mx-2">Unidad de envase</td>
+                            <td class="mx-2">Precio unitario</td>
+                            <td class="mx-2">Código de barras</td>
+                            <td class="mx-2">Estatus</td>
+                        </tr>
+                    </thead>
+                    <tbody id="tblProductos">
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+

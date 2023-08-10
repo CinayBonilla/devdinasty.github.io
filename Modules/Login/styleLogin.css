@@ -1,0 +1,53 @@
+/*Diseño de login*/
+.contLogin, .contLogin1, .contLogin2, .contLogin3{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    height: 300px;
+    box-shadow: -4px -4px 10px rgba(110,168,254, .5);
+    background: linear-gradient(
+        rgba( 209, 214, 255, 0.8),
+        rgba(110,168,254, 0.1));
+    border-radius: 20px;
+    
+}
+
+@media (max-width: 720px) {
+    .contLogin{
+      display: block;
+      height: 300px;
+      width: 300px;
+      margin-left: calc(100% - 500px);
+      margin-right: calc(100% - 500px);
+      padding: 30px;
+    }
+  }
+
+.usuario, .contra{
+    border-style: none;
+    border-bottom: slategray;
+    outline: none;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: transparent;
+    border-bottom-style: solid;
+    color: slategray;
+    
+}
+.tituloLogin{
+    color: dimgray;
+}
+.btLog{
+    width: 120px;
+    margin-top: 45px;
+    color: white;
+    background-color: slategray;
+}
+
+@media (min-width: 720px) {
+    .contP{
+      display: inline-flex;
+    }
+  }

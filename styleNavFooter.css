@@ -1,0 +1,132 @@
+/*Link de la fuente de letra que usamos*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+body{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/004/697/688/original/curve-light-blue-background-abstract-free-vector.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.barra{
+    background-color: rgba( 0, 189, 255);
+    tab-size: 50px;
+}
+.logoFar{
+    display: block;
+    max-width: 100%;
+    width: 200px;
+    margin: 0 auto;
+    
+}
+
+@media (max-width: 720px) {
+    .logoFar{
+      display: none;
+    }
+  }
+
+.menu{
+    margin-left: -175px;
+}
+@media (max-width: 720px) {
+    .menu{
+      margin-left: calc(100% - 359px);
+    }
+  }
+.piePagina{
+    background-color: rgba( 0, 189, 255);
+}
+.diseñoLinea{
+    background-color: rgba( 0, 231, 221 );
+    padding: 5px;
+}
+.diseñoLineaT{
+    background-color: rgba( 0, 255, 243 );
+    padding: 5px;
+}
+h3{
+    border-color: white;
+    border-radius: 5px;
+    border: solid;
+}
+.contT{
+    height: 450px;
+    border-right: solid;
+    border-color: rgba( 0, 255, 243 );
+}
+@media (max-width: 720px) {
+    .contT{
+      display: contents;
+      height: 450px;
+    }
+  }
+
+@media (max-width: 720px) {
+    .imgHome{
+      width: 200px;
+    }
+  }
+
+.imgHome{
+    width: 400px;
+}
+
+@media (max-width: 720px) {
+    .imgHome{
+      /*display: none;*/
+      width: 400px;
+      margin-left: -130px;
+    }
+  }
+
+
+footer{
+    padding: 30px 40px;
+    width: 100%;
+    background: rgba(0, 189, 255);
+}
+.social_icon{
+    list-style: none;
+    display: flex;
+ 
+}
+.social_icon:hover{
+    align-content: center;
+    color: white;
+}
+
+@media (max-width: 720px) {
+    .social_icon{
+      
+      display: block;
+      margin-left: 30px
+    }
+  }
+
+.redes{
+    width: 35px;
+    margin-bottom: 4px;
+    padding-right: 5px;
+}
+.ig, .wp, .fb{
+    padding-left: 75px;
+}
+
+.logoDD{
+   width: 60px;
+}
+.titulo{
+    margin: 175px;
+}
+@media (max-width: 720px) {
+    .titulo{
+      display: none;
+    }
+  }
+  
+  
